@@ -1,0 +1,268 @@
+body {
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.seosve {
+    width: 100%;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
+.header__menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-item {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.header__menu-item:hover {
+    color: #b1e100;
+}
+
+.header__menu-item--active {
+    color: #b1e100;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem;
+    text-align: justify;
+    border-bottom: 2px solid #800080;
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.hero__subtitle {
+    font-size: 0.9rem;
+}
+
+.hero__anchortag{
+    color:#b1e100 ;
+    font-size: 1rem;
+}
+
+.hero__anchortag:hover{
+    color:#800080 ;
+}
+
+.services {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat( 3, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.service-card:hover {
+    border-color: #800080;
+}
+
+.service-card__icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.service-card__title {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.service-card__description {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+
+.service-card__link {
+    display: block;
+    background-color: #1a1a1a;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clients {
+    color: white;
+    background-color: #1a1a1a;
+    padding: 3rem;
+}
+
+.clients__title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    margin-left: 20rem;
+}
+
+.clients__grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clients__logo {
+    max-width: 200px;
+    aspect-ratio: 428 / 76;
+    height: auto;
+}
+
+.contact__tittle{
+    margin: 1.5rem;
+    display: flex;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.contact__info {
+    flex: 1;
+    margin-right: 1rem;
+    background-color: #f4f4f4;
+    padding-right: 2rem;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.contact__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact__form {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.contact__form-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group__input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group__input--textarea {
+    height: 100px;
+}
+
+.form-group--checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-group__checkbox {
+    margin-right: 0.5rem;
+}
+
+.contact__submit {
+    background-color: #b1e100;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
